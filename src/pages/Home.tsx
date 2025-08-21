@@ -10,25 +10,25 @@ const Home: React.FC = () => {
       id: 1,
       image:
         "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
-      title: "Deluxe Suite",
+      title: "Delhi",
     },
     {
       id: 2,
       image:
         "https://images.unsplash.com/photo-1566665797739-1674de7a421a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
-      title: "Executive Room",
+      title: "Mumbai",
     },
     {
       id: 3,
       image:
         "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
-      title: "Premium Suite",
+      title: "Jaipur",
     },
     {
       id: 4,
       image:
         "https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
-      title: "Luxury Villa",
+      title: "Kashmir",
     },
   ];
 
@@ -48,7 +48,7 @@ const Home: React.FC = () => {
       id: 1,
       name: "Sarah Johnson",
       image:
-        "https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
+        "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
       title: "A Hidden Gem",
       text: "Absolutely stunning hotel with exceptional service. The rooms are immaculate and the staff goes above and beyond to ensure a perfect stay.",
       rating: 5,

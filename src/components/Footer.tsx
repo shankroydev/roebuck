@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
             <div className="footer-info">
               <div className="info-item">
                 <MapPin size={16} />
-                <span>123 Luxury Street, London, UK</span>
+                <span>Droxford Road Soberton PO17 5AY (A32 nr Wickham)</span>
               </div>
               <div className="info-item">
                 <Phone size={16} />
