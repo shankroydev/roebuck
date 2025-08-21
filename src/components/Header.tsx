@@ -42,7 +42,10 @@ const Header: React.FC = () => {
       <div className="container">
         <div className="header-content">
           <Link to="/" className="logo" onClick={closeMenu}>
-            <span className="logo-text">RoeBuck Inn</span>
+            <span className="logo-text">
+              <img src="/logo.png" alt="logo" className="logo-icon" />
+              <span className="logo-text-content">ROEBUCK INN</span>
+            </span>
           </Link>
 
           <nav className={`nav ${isMenuOpen ? "nav-open" : ""}`}>

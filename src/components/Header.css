@@ -1,7 +1,7 @@
 .header {
   background: transparent;
   color: var(--text-light);
-  padding: 1rem 0;
+  padding: 10px 0;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -10,7 +10,7 @@
 }
 
 .header.scrolled {
-  background: #344E56; /* change to your preferred color */
+  background: #344e56; /* change to your preferred color */
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -33,10 +33,15 @@
 .logo-icon {
   font-size: 2rem;
   margin-right: 0.5rem;
+  width: 35px;
 }
 
 .logo-text {
   font-size: 1.5rem;
+  align-items: center;
+  display: flex;
+  color: var(--secondary-color);
+  font-family: "Trajan Pro 3", serif;
 }
 
 .nav {
@@ -103,6 +108,10 @@
   color: var(--secondary-color);
 }
 
+.logo-text-content {
+  margin-top: 8px;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .nav {
@@ -164,9 +173,14 @@
 @media (max-width: 480px) {
   .logo-text {
     font-size: 1.25rem;
+    align-items: center;
+    display: flex;
+    color: var(--secondary-color);
+    font-family: "Trajan Pro 3", serif;
   }
 
   .logo-icon {
     font-size: 1.5rem;
+    width: 35px;
   }
 }
