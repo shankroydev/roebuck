@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Star, ArrowRight } from "lucide-react";
 import "./Home.css";
+import Header from "../components/Header";
 
 const Home: React.FC = () => {
   const roomPreviews = [
@@ -74,8 +75,8 @@ const Home: React.FC = () => {
 
   return (
     <div className="home">
+      <Header/>
       {/* Hero Section */}
-      <section className="hero">
         <div className="hero-background">
           <img
             src="/hero-img.jpg"
@@ -83,6 +84,7 @@ const Home: React.FC = () => {
           />
           <div className="hero-overlay"></div>
         </div>
+      <section className="hero">
 
         <div className="hero-content">
           <h1 className="hero-title">Stay in Comfort, Live the Experience</h1>

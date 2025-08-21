@@ -10,6 +10,7 @@ import {
   Clock,
 } from "lucide-react";
 import "./About.css";
+import Header from "../components/Header";
 
 const About: React.FC = () => {
   const values = [
@@ -66,7 +67,6 @@ const About: React.FC = () => {
   return (
     <div className="about-page">
       {/* Hero Section */}
-      <section className="about-hero">
         <div className="hero-background">
           <img
             src="https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
@@ -74,6 +74,9 @@ const About: React.FC = () => {
           />
           <div className="hero-overlay"></div>
         </div>
+      <Header />
+
+      <section className="about-hero">
         <div className="hero-content">
           <h1>About RoeBuck Inn</h1>
           <p>

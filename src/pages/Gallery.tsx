@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 import "./Gallery.css";
+import Header from "../components/Header";
 
 interface GalleryImage {
   id: number;
@@ -134,7 +135,6 @@ const Gallery: React.FC = () => {
   return (
     <div className="gallery-page">
       {/* Hero Section */}
-      <section className="gallery-hero">
         <div className="hero-background">
           <img
             src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
@@ -142,6 +142,9 @@ const Gallery: React.FC = () => {
           />
           <div className="hero-overlay"></div>
         </div>
+      <Header />
+
+      <section className="gallery-hero">
         <div className="hero-content">
           <h1>Photo Gallery</h1>
           <p>Explore our beautiful spaces and amenities</p>

@@ -19,7 +19,6 @@ function App() {
     <AuthProvider>
       <Router>
         <div className="App">
-          <Header />
           <main>
             <Routes>
               <Route path="/" element={<Home />} />

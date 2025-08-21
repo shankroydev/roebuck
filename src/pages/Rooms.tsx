@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Star, Users, Bed, Wifi, Coffee, Car, ArrowRight } from "lucide-react";
 import "./Rooms.css";
+import Header from "../components/Header";
 
 interface Room {
   id: string;
@@ -148,7 +149,8 @@ const Rooms: React.FC = () => {
   return (
     <div className="rooms-page">
       {/* Hero Section */}
-      <section className="rooms-hero">
+      <Header />
+
         <div className="hero-background">
           <img
             src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
@@ -156,6 +158,7 @@ const Rooms: React.FC = () => {
           />
           <div className="hero-overlay"></div>
         </div>
+      <section className="rooms-hero">
         <div className="hero-content">
           <h1>Our Rooms & Suites</h1>
           <p>Discover comfort and luxury in every detail</p>

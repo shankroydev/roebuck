@@ -47,9 +47,8 @@ h6 {
 
 .btn {
   display: inline-block;
-  padding: 12px 24px;
+  padding: 4px 24px;
   border: none;
-  border-radius: 4px;
   font-family: "Playfair Display", serif;
   font-weight: 500;
   text-decoration: none;
